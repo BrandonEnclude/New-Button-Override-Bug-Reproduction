@@ -1,7 +1,6 @@
 # New-Button-Override-Bug-Reproduction
 
-Add a brief description of this project here, in Markdown format.
-It will be shown on the main page of the project's GitHub repository.
+Reproduces a bug recorded in [Known Issues](https://help.salesforce.com/s/issue?id=a028c00000gAwnpAAC)
 
 ## Development
 

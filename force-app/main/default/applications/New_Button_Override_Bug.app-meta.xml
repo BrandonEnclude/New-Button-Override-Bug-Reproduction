@@ -34,5 +34,4 @@
     <tabs>Working_Child__c</tabs>
     <tabs>Buggy_Child__c</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>New_Button_Override_Bug_UtilityBar</utilityBar>
 </CustomApplication>
