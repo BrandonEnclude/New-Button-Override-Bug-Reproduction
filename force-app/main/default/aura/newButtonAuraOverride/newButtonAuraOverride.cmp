@@ -1,0 +1,3 @@
+<aura:component implements="lightning:actionOverride">
+   <c:newButtonLwcOverride></c:newButtonLwcOverride>
+</aura:component>	

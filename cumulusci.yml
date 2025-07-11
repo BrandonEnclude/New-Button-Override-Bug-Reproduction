@@ -1,0 +1,10 @@
+minimum_cumulusci_version: '4.4.0'
+project:
+    name: New-Button-Override-Bug-Reproduction
+    package:
+        name: New-Button-Override-Bug-Reproduction
+        api_version: '63.0'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
