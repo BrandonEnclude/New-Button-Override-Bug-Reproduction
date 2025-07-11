@@ -8,3 +8,10 @@ project:
         default_branch: 'main'
     source_format: sfdx
 
+flows:
+  config_dev:
+    steps:
+      3:
+        task: assign_permission_sets
+        options:
+          api_names: "New_Button_Override_Bug_Reproduction"
