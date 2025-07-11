@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Parent_Object_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Parent_Object__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Parent_Object_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Parent_Object__c</pageOrSobjectType>
+    </actionOverrides>
     <brand>
         <headerColor>#ED0909</headerColor>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
@@ -16,4 +34,5 @@
     <tabs>Working_Child__c</tabs>
     <tabs>Buggy_Child__c</tabs>
     <uiType>Lightning</uiType>
+    <utilityBar>New_Button_Override_Bug_UtilityBar</utilityBar>
 </CustomApplication>
