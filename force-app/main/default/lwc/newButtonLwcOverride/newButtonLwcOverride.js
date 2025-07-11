@@ -30,4 +30,8 @@ export default class NewButtonLwcOverride extends NavigationMixin(
     }, null, 2)
   }
 
+  get additionalParamsIsPopulated() {
+    return !!this.pageRef?.state?.additionalParams
+  }
+
 }
